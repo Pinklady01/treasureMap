@@ -6,8 +6,10 @@ km² du département de la Madre de Dios. Vous devez réaliser un système perme
 déplacements et les collectes de trésors effectuées par les aventuriers. Le gouvernement péruvien
 étant très à cheval sur les bonnes pratiques de code, il est important de réaliser un code de qualité,
 lisible, et maintenable (oui, ça veut dire avec des tests) !
+
 ##Données du problème
 ###La carte
+
 La carte de la Madre de Dios est de forme rectangulaire, chaque case ayant la même taille. On y
 trouve des plaines, des montagnes et des trésors.
 Les dimensions de la carte sont définies dans le fichier d’entrée de l’exercice par la ligne suivante :
@@ -86,6 +88,7 @@ trésor.
 Il ne peut y avoir qu’un aventurier à la fois sur une même case. Les mouvements des aventuriers sont
 évalués tour par tour. En cas de conflit entre mouvements sur un même tour, c’est l’ordre d’apparition
 de l’aventurier dans le fichier qui donne la priorité des mouvements.
+
 ##Ce qu’il faut réaliser
 ###Lire le fichier d’entrée
 Le programme doit être capable de lire le fichier d’entrée de l’exercice.
@@ -107,6 +110,7 @@ Que l’on peut représenter sous la forme suivante :
 T(2) T(3) .
 
 ##Simuler les mouvements des aventuriers
+
 Le programme doit être capable d’exécuter les mouvements des différents aventuriers en respectant
 les contraintes de l’exercice, de gérer la collecte des trésors et de restituer le résultat final de la
 simulation.
