@@ -1,7 +1,7 @@
 package core.map.models;
 
 public record Map(
-        Boxes boxes,
+        FieldEnum[][] fields,
         int height,
         int width
 ) {

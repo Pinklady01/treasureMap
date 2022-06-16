@@ -1,4 +1,4 @@
 package infrastructure.parser;
 
-public class FileParser {
+public class OutputWriter {
 }
